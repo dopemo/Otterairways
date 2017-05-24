@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.otterairways.otterairways.AdminActivity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <Button
+            android:id="@+id/Reservations"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reservations" />
+
+        <Button
+            android:id="@+id/flights"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Flights" />
+
+        <Button
+            android:id="@+id/addflight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADD FLIGHT" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VERIFY Account" />
+
+        <Button
+            android:id="@+id/cb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Verify Cancellation" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Log out" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
